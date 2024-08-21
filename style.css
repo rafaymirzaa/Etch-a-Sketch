@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img.jpeg') no-repeat center center fixed; /* Adjust the URL to your background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    text-align: center;
+    margin: 20px;
+    color: rgb(28, 61, 67); /* Ensure text is readable on the background */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    margin: 0 auto; /* Center the container */
+    background-color: white; /* Ensure the grid squares are visible */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Optional: adds shadow to container */
+}
+
+#container div {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 10px auto; /* Center the button */
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+
+#header 
+{
+    text-align: center;
+    margin: 20px;
+}
+#container
+ {
+display: flex;
+flex-wrap: wrap;
+width: 960px; 
+height: 960px; 
+ }
+        
+#container div 
+{
+    border: 1px solid #ddd; /* Optional: for visual clarity */
+    box-sizing: border-box;
+}
+ button 
+{
+    margin: 10px;
+     padding: 10px;
+}
