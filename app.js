@@ -51,3 +51,4 @@ document.querySelector("#changeGridSize").addEventListener("click", () => {
 document.addEventListener("click",() =>{
     colorMode = !colorMode;
 })
+// change not syncing
